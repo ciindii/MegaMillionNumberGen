@@ -8,3 +8,4 @@ languages.push('chicken');
 console.log(languages.join(', '));
 let x = languages.pop();
 console.log(x);
+document.write(languages);
