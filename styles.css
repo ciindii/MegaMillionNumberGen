@@ -1,37 +1,87 @@
-.whiteBallDiv div {
-  float: left;
+.logo {
+  text-align: center;
+  margin-left: -50px;
+  margin-top: 50px;
 }
 
-.megaBallDiv div {
-  float: left;
-}
-
-.num5 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  border: 1px solid black;
-  margin-right: 10px;
-  background: green;
-}
-
-.num1 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  border: 1px solid black;
-  margin-right: 10px;
-  background: yellow;
-}
-
-.generate {
-  width: 100px;
+.logo img{
+  width: 400px;
   height: 200px;
-  border-radius: 25px;
-  background: red;
+}
 
+.container1 {
+  background-color: ;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.whiteBallDiv {
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 80px;
+}
+
+.megaBallDiv {
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.clear {
+  clear: both;
+}
+
+
+.num5,
+.num1 {
+	width: 80px;
+	height: 80px;
+  border-radius: 50%;
+	background-color: #fcfcfc;
+  box-shadow: inset -25px -25px 40px rgba(0,0,0,.3);
+	background-repeat: no-repeat, no-repeat;
+  justify-content: center;
+  font-size: 40px;
+  font-family: 'Ultra', serif;
+  padding: 15px;
+  text-align: center;
+  margin-right: 10px
+}
+
+.num5{
+
+}
+.num1 {
+  background: #ffcc16;
+  box-shadow: inset -25px -25px 40px rgba(0,0,0,.3);
+}
+.buttonDiv {
+  text-align: center;
+}
+.generate {
+  color: #fff;
+  text-transform: uppercase;
+  background: #ed3330;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  font-size: 20px;
+  width: 300px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.generate:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.clear {
+  clear: both;
 }

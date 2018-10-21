@@ -19,3 +19,11 @@ function lottoNumbers() {
   lottoWhiteBalls();
   lottoMegaBall();
 }
+
+// let megaBall = document.getElementById('megaBall');
+// let whiteBall = document.querySelectorAll('num5');
+// megaBall.style.fontSize = '30px';
+// megaBall.style.fontFamily = 'Ultra';
+// megaBall.style.padding = '5px';
+//
+// whiteBall.style.fontFamily = 'Ultra';

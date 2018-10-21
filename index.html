@@ -4,20 +4,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mega Millions Number Generator</title>
+  <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <div class="whiteBallDiv">
-    <div id="whiteBall0" class="num5"></div>
-    <div id="whiteBall1" class="num5"></div>
-    <div id="whiteBall2" class="num5"></div>
-    <div id="whiteBall3" class="num5"></div>
-    <div id="whiteBall4" class="num5"></div>
+  <div class="logo">
+  <img src="img/megaMills.png" alt="mega million logo" class="megaMills">
   </div>
-  <div class="megaBallDiv">
-    <div id="megaBall" class="num1"></div>
+  <div class="container1">
+
+      <div class="whiteBallDiv row">
+        <div id="whiteBall0" class="num5 col-sm-"></div>
+        <div id="whiteBall1" class="num5 col-sm-"></div>
+        <div id="whiteBall2" class="num5 col-sm-"></div>
+        <div id="whiteBall3" class="num5 col-sm-"></div>
+        <div id="whiteBall4" class="num5 col-sm-"></div>
+      </div>
+      <div class="megaBallDiv clearfix">
+        <div id="megaBall" class="num1 col-sm-"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
   </div>
+<div class="buttonDiv">
 <input type="button" id="btn" class="generate" value="GENERATE" onclick="lottoNumbers();">
+</div>
   <script src="scripts.js"></script>
 </body>
 </html>
