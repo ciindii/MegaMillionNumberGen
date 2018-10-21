@@ -1,7 +1,23 @@
 <html>
-  <title>Test</title>
-  <body>
-    <p>Hello world!</p>
-    <script src="scripts.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mega Millions Number Generator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="whiteBallDiv">
+    <div id="whiteBall0" class="num5"></div>
+    <div id="whiteBall1" class="num5"></div>
+    <div id="whiteBall2" class="num5"></div>
+    <div id="whiteBall3" class="num5"></div>
+    <div id="whiteBall4" class="num5"></div>
+  </div>
+  <div class="megaBallDiv">
+    <div id="megaBall" class="num1"></div>
+  </div>
+<input type="button" id="btn" class="generate" value="GENERATE" onclick="lottoNumbers();">
+  <script src="scripts.js"></script>
+</body>
 </html>
